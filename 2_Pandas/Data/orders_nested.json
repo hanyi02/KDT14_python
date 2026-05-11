@@ -1,0 +1,57 @@
+[
+  {
+    "order_id": "A001",
+    "customer": {
+      "name": "김민수",
+      "city": "대구"
+    },
+    "items": [
+      {
+        "product": "노트북",
+        "price": 1200000,
+        "qty": 1
+      },
+      {
+        "product": "마우스",
+        "price": 25000,
+        "qty": 2
+      }
+    ],
+    "order_date": "2026-04-01"
+  },
+  {
+    "order_id": "A002",
+    "customer": {
+      "name": "이서연",
+      "city": "서울"
+    },
+    "items": [
+      {
+        "product": "키보드",
+        "price": 85000,
+        "qty": 1
+      }
+    ],
+    "order_date": "2026-04-02"
+  },
+  {
+    "order_id": "A003",
+    "customer": {
+      "name": "박지훈",
+      "city": "부산"
+    },
+    "items": [
+      {
+        "product": "모니터",
+        "price": 270000,
+        "qty": 1
+      },
+      {
+        "product": "USB 허브",
+        "price": 18000,
+        "qty": 1
+      }
+    ],
+    "order_date": "2026-04-03"
+  }
+]
