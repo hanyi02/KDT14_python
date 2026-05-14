@@ -1,5 +1,0 @@
-{"time": "2026-04-24 09:00:00", "level": "INFO", "user": "kim", "event": "login"}
-{"time": "2026-04-24 09:05:12", "level": "INFO", "user": "lee", "event": "view_page"}
-{"time": "2026-04-24 09:07:34", "level": "WARNING", "user": "park", "event": "wrong_password"}
-{"time": "2026-04-24 09:10:20", "level": "INFO", "user": "choi", "event": "download"}
-{"time": "2026-04-24 09:13:51", "level": "ERROR", "user": "jung", "event": "server_error"}
