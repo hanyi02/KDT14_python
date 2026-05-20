@@ -1,0 +1,39 @@
+<body>
+    <div id="asdf">클릭</div>
+    <button onclick="func()"> 나를 클릭 </button>
+    <script>
+        //자바스크립트 코드 작성
+        let person = {
+            name:'John',
+            age:30,
+            sayHello : function(){
+                console.log('HELLO!!!!!')
+            }
+        }
+
+
+
+        var func = function ()
+        {
+            var d= document.getElementById('asdf')
+            // d.onclick = function()
+            // {
+            //     d.textContent= '하하하';
+            // }
+
+            d.addEventListener('mousedown', ()=> {
+                d.textContent= '하하하';
+                d.style.fontSize= 100;
+            });
+
+
+            d.addEventListener('mouseup', ()=> {
+                d.textContent= '호호호';
+                d.style.fontSize= 50;});
+
+
+                
+
+        }
+    </script>
+</body>
