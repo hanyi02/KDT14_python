@@ -1,3 +1,14 @@
+__pycache__/
+.ipynb_checkpoints/
+*.npy
+*.pickle
+*.pkl
 *.csv
 *.xlsx
-tmp_out.txt
+*.xls
+*.parquet
+*.db
+*.sqlite
+.venv/
+venv/
+env/
