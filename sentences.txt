@@ -1,0 +1,13 @@
+This part will no longer be produced after the balance out of the current model.
+Please register this assembly as an end item in the BOM system.
+Apply grease to the sliding surfaces as required during the assembly.
+The ECS automatically adjusts the damping force based on road conditions.
+Induction hardening is applied to the gear teeth to improve surface wear resistance.
+Check if the scrap chute is blocked to ensure automatic dropping of waste materials.
+The knock out pin forcibly ejects the formed product to prevent it from sticking to the upper die.
+A redrawing process is necessary to reduce the diameter of the drawn part further.
+Upsetting is used to shorten the length of the metal rod and increase its cross-sectional area.
+We are launching a TPM initiative to minimize equipment downtime and prevent sudden failures.
+When a defect occurs, you must investigate the root cause based on the three realities principle.
+The air vent hole reduces forming pressure, making it easier to eject the product.
+
