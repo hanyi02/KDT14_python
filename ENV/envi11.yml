@@ -1,0 +1,19 @@
+name: ML_ENV11
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - nomkl
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - opencv
+  - pillow
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - pip
+  - pip:
+      - icrawler

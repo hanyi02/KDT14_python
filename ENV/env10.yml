@@ -1,0 +1,19 @@
+name: ML_ENV10
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - nomkl
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - opencv
+  - pillow
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - pip
+  - pip:
+      - icrawler

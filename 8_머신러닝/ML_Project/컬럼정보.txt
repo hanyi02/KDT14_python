@@ -1,0 +1,28 @@
+X_Minimum	결함 영역의 가장 왼쪽 X좌표 ★
+X_Maximum	결함 영역의 가장 오른쪽 X좌표 ★
+Y_Minimum	결함 영역의 시작 또는 가장 위쪽 Y좌표 ★
+Y_Maximum	결함 영역의 끝 또는 가장 아래쪽 Y좌표 ★
+Pixels_Areas	실제 결함으로 판정된 영역의 전체 픽셀 개수 ★
+X_Perimeter	결함 경계의 X축 방향 규모를 나타내는 영상 추출값 ★
+Y_Perimeter	결함 경계의 Y축 방향 규모를 나타내는 영상 추출값 ★
+Sum_of_Luminosity	결함 영역에 포함된 모든 픽셀 밝기값의 합
+Minimum_of_Luminosity	결함 영역 내부에서 가장 어두운 픽셀의 밝기값
+Maximum_of_Luminosity	결함 영역 내부에서 가장 밝은 픽셀의 밝기값
+Length_of_Conveyer	강판이 이동하는 컨베이어 또는 촬영 구간의 길이 정보
+TypeOfSteel_A300	강판 재질이 A300 계열이면 1, 아니면 0인 더미변수
+TypeOfSteel_A400	강판 재질이 A400 계열이면 1, 아니면 0인 더미변수
+Steel_Plate_Thickness	검사 대상 강판의 두께
+Edges_Index	결함 경계의 분포와 크기를 정규화해 나타낸 경계 특성 지표
+Empty_Index	결함을 감싸는 영역 내부에서 결함으로 채워지지 않은 빈 공간의 비율
+Square_Index	결함 형태가 정사각형에 얼마나 가까운지를 나타내는 형상 지표
+Outside_X_Index	결함이 X축 방향으로 얼마나 넓게 확장됐는지를 나타내는 정규화 지표
+Edges_X_Index	결함 경계에서 X축 방향 성분이 차지하는 정도
+Edges_Y_Index	결함 경계에서 Y축 방향 성분이 차지하는 정도
+Outside_Global_Index	결함이 전체적으로 가로 또는 세로 방향 중 어느 방향으로 더 발달했는지
+LogOfAreas	결함 픽셀 면적 Pixels_Areas에 로그 변환을 적용한 값 ★
+Log_X_Index	결함의 X축 길이, 즉 가로 폭에 로그 변환을 적용한 값 ★
+Log_Y_Index	결함의 Y축 길이, 즉 세로 높이에 로그 변환을 적용한 값 ★
+Orientation_Index	결함이 가로형인지 세로형인지 등 결함의 방향성을 나타내는 지표
+Luminosity_Index	결함 영역의 밝기 특성을 정규화한 밝기 지표
+SigmoidOfAreas	결함 면적을 시그모이드 함수 형태로 변환해 크기 영향을 완화한 값
+Fault_Type	예측해야 하는 강판 표면 결함 종류로, 총 7개의 클래스가 존재 ★

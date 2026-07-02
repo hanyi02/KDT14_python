@@ -1,0 +1,11 @@
+
+
+Pastry	패스트리 형태로 불리는 표면 결함
+Z_Scratch	Z형 또는 특정 방향의 스크래치
+K_Scatch	K형 스크래치 계열
+Stains	얼룩
+Dirtiness	오염·이물
+Bumps	돌기·융기
+Other_Faults	앞의 6개에 속하지 않는 기타 결함
+
+

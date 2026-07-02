@@ -1,14 +1,32 @@
-__pycache__/
-.ipynb_checkpoints/
-*.npy
-*.pickle
-*.pkl
-*.csv
-*.xlsx
-*.xls
-*.parquet
-*.db
-*.sqlite
-.venv/
-venv/
-env/
+@'
+# --------------------------------------------------
+# 이미지 파일 제외
+# --------------------------------------------------
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
+*.tif
+*.tiff
+*.heic
+*.avif
+'@ | Add-Content .gitignore
+
+# --------------------------------------------------
+# 대용량 데이터셋 제외
+# --------------------------------------------------
+2_Pandas/Data/mnist_train.csv
+3_시각화/구급 현황_2023_전국.csv
+8_머신러닝/Day02/fruit_data.csv
+8_머신러닝/Day02/fruit_data_practice.csv
+
+# --------------------------------------------------
+# 대용량 데이터 파일 제외
+# --------------------------------------------------
+3_시각화/구급 현황_2023_전국.csv
+2_Pandas/Data/mnist_train.csv
+8_머신러닝/Day06/mnist_train.csv
+8_머신러닝/Day02/fruit_data_practice.csv
+8_머신러닝/Day02/fruit_data.csv
